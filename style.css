@@ -1,0 +1,303 @@
+
+*,  *::after, *::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+a{
+  color: #FFFFFF;
+}
+
+body{
+  width: 100%;
+  height: 100vh;
+}
+.containerA{
+  width: 100%;
+  height: 100%;
+  background: #100D1B;
+  overflow: hidden;
+}
+.containerA .container{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: url(./images/beautiful-shining-stars-night-sky\ 1.png);
+  padding: 2em 0 0 0;
+}
+.container__header{
+  width: 100%;
+  height: 90px;
+  max-height: 100px;
+  position: fixed;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header_linkBtns{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  padding: 0 5em ;
+}
+.header__categories{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.categories-lists{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+}
+.list{
+  margin-right: 80px;
+}
+.list .list-link{
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: normal;
+  font-family: "Satoshi", sans-serif;
+}
+.header__createAcc .create{
+  width: 180px;
+  height: 50px;
+  font-family: 'Satoshi', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  border-radius: 73px;
+  background: linear-gradient(109.48deg, #4523B0 36.94%, #6E8EFF 141.52%);
+  color: #FFFFFF;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+.anabel{
+  position: absolute;
+  left: 50%;
+  top: 160px;
+  transform: translateX(-50%);
+  height: 210px;
+  z-index: 10;
+}
+
+.anabel_name{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  font-size: 200px;
+  text-align: center;
+  font-family: 'Frankie', sans-serif;
+  font-weight: 500;
+  color: #FFFFFF;
+}
+.ellipse{
+  position: absolute;
+  width: 51px;
+  height: 18px;
+  left: 940px;
+  top: 195px;
+  z-index: 20;
+  background: linear-gradient(218.67deg, #1A1A1C 38.35%, #19181A 77.77%);
+  filter: blur(3.5px);
+  transform: rotate(20.82deg);
+}
+
+.hat {
+  position: absolute;
+  top: 90px;
+  z-index: 3;
+  left: 880px;
+  width: 170px;
+  height: 170px;
+  transform: rotate(16.16deg);
+}
+.hat-image{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.anabel_picture{
+  position: absolute;
+  width: 80%;
+  bottom: 0%;
+  left: 50%;
+  transform: translate(-50%);
+  height: 60%;
+  z-index: 1000;
+}
+.anabel_design{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.picture{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  z-index: 20;
+}
+.picture-anabel {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: contain;
+  z-index: 100000;
+}
+.ellipse2{
+  position: absolute;
+  top: 50px;
+  left: 10%;
+  width: 80%;
+  height: 80%;
+  background: linear-gradient(150.95deg, #7D6EB1 7.67%, #7D6EB1 147.46%);
+  filter: blur(150.047px);
+  z-index: 20;
+}
+.ellipse4 {
+  position: absolute;
+  top: 60%;
+  border-radius: 50%;
+  left: 75%;
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(150.95deg, #7D6EB1 7.67%, #7D6EB1 147.46%);
+  filter: blur(150.047px);
+  z-index: 20;
+}
+.ellipse5 {
+  position: absolute;
+  top: 60%;
+  border-radius: 50%;
+  left: 5%;
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(150.95deg, #7D6EB1 7.67%, #7D6EB1 147.46%);
+  filter: blur(150.047px);
+  z-index: 20;
+}
+
+.ellipse3{
+  background: url(./images/Ellipse\ 1.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  padding: 0 30%;
+  width: 100%;
+  height: 50%;
+  top: 45%;
+  left: 5%;
+  z-index: 1;
+}
+
+.about-anabel{
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 20px 15px;
+  bottom: 15%;
+  right: 5%;
+  width: 20%;
+  height: 240px;
+  background-color: red;
+  border-radius: 20px;
+  backdrop-filter: blur(22px);
+  -webkit-backdrop-filter: blur(22px);
+  background: linear-gradient(97.41deg, #d3d3d3 -192.76%, rgba(19, 0, 86, 0.38) -45.22%, rgba(217, 217, 217, 0.071) 111.83%);
+  color: #FFFFFF;
+  z-index: 1000;
+}
+.anabel__details{
+  width: 100%;
+  height: 70%;
+  height: 110px;
+}
+.anabel__details p{
+  font-family: "Satoshi", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.watch-trailer{
+  /* background-color: red; */
+  position: relative;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 10px;
+}
+.brush{
+  width: 50px;
+  bottom: -20px;
+  right: 65%;
+  transition: ease-in-out .5s;
+  position: absolute;
+  opacity: 0;
+  transition: opacity all .45s;
+}
+.brush img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.play-button{
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 1px solid #FFFFFF;
+  padding: 0 0 0 3px;
+  margin-right: 20px;
+  background: none;
+  cursor: pointer;
+}
+.play-button img{
+  width: 40%;
+  height: 40%;
+}
+.watch-trailer span{
+  font-family: "Satoshi", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+
+.anabel_magic-eye{
+  position: absolute;
+  bottom: 5px;
+  right: 50px;
+  width: 100px;
+  height: 100px;
+  z-index: 10000;
+}
+.magic-eye{
+  width: 100%;
+  height: 100%;
+}
+.magic-eye img{
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+
+}
