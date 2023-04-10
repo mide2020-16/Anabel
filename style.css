@@ -28,6 +28,21 @@
   }
 }
 
+.thanks{
+  position: absolute;
+  bottom:15px;
+  right: 30px; 
+  background-color: rgba(234, 231, 28, 0.941);
+  color: black;
+  padding: 10px 15px;
+  width: auto;
+  border-radius: 30px;
+}
+.thanks a{
+  color: blue;
+  font-family: "Satoshi", sans-serif;
+}
+
 .reddish, .blueish, .purplish{
   position: absolute;
 }
