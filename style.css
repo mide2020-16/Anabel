@@ -1,12 +1,14 @@
-
-*,  *::after, *::before{
+*,
+*::after,
+*::before {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   list-style: none;
   text-decoration: none;
 }
-.intro__anime{
+
+.intro__anime {
   position: relative;
   width: 100%;
   height: 100%;
@@ -16,38 +18,44 @@
   padding: 0 8%;
   color: #FFFFFF;
 }
-.fade_In{
+
+.fade_In {
   animation: fadeIn 5s linear;
 }
+
 @keyframes fadeIn {
-  0%{
+  0% {
     opacity: 0;
   }
-  100%{
+
+  100% {
     opacity: 1;
   }
 }
 
-.thanks{
+.thanks {
   position: absolute;
-  bottom:15px;
-  right: 30px; 
+  bottom: 15px;
+  right: 30px;
   background-color: rgba(234, 231, 28, 0.941);
   color: black;
   padding: 10px 15px;
   width: auto;
   border-radius: 30px;
 }
-.thanks a{
+
+.thanks a {
   color: blue;
   font-family: "Satoshi", sans-serif;
 }
 
-.reddish, .blueish, .purplish{
+.reddish,
+.blueish,
+.purplish {
   position: absolute;
 }
 
-.reddish{
+.reddish {
   width: 320px;
   height: 320px;
   border: 13px solid #FF9595;
@@ -55,6 +63,7 @@
   top: -170px;
   border-radius: 50%;
 }
+
 .blueish {
   width: 100px;
   height: 100px;
@@ -63,6 +72,7 @@
   bottom: 0px;
   border-radius: 50%;
 }
+
 .purplish {
   width: 320px;
   height: 320px;
@@ -71,48 +81,59 @@
   bottom: -110px;
   border-radius: 50%;
 }
-.intro__anime .intro{
+
+.intro__anime .intro {
   width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.crownandperson{
+
+.crownandperson {
   position: relative;
 }
-.crownandperson img:first-child{
+
+.crownandperson img:first-child {
   position: absolute;
   top: -95px;
   transform: rotate(1deg);
 }
-.intro_content{
+
+.intro_content {
   /* height: 100%; */
   display: flex;
   flex-direction: column;
   /* justify-content: space-between; */
   align-items: flex-start;
 }
-.header, .para, .connect{
+
+.header,
+.para,
+.connect {
   margin-bottom: 20px;
 }
-.header h2{
+
+.header h2 {
   font-family: "Satoshi", sans-serif;
   font-style: italic;
   font-weight: 500;
   font-size: 45px;
   line-height: 62px;
 }
-.para{
+
+.para {
   margin-bottom: 70px;
 }
-.para p{
+
+.para p {
   font-family: "Satoshi", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-style: 24px;
   line-height: 25px;
 }
+
 .nextpage {
   position: absolute;
   bottom: 60px;
@@ -127,7 +148,8 @@
   cursor: pointer;
 
 }
-.connect .twitter{
+
+.connect .twitter {
   padding: 15px 30px;
   background: none;
   outline: none;
@@ -135,34 +157,39 @@
   cursor: pointer;
   border-radius: 60px;
 }
-.twitter a{
+
+.twitter a {
   font-family: "Satoshi", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
 }
-a{
+
+a {
   color: #FFFFFF;
 }
 
-body{
+body {
   width: 100%;
   height: 100vh;
 }
-.containerA{
+
+.containerA {
   width: 100%;
   height: 100%;
   background: #100D1B;
   overflow: hidden;
 }
-.containerA .container{
+
+.containerA .container {
   position: relative;
   width: 100%;
   height: 100vh;
   background: url(./images/beautiful-shining-stars-night-sky\ 1.png);
   padding: 2em 0 0 0;
 }
-.container__header{
+
+.container__header {
   width: 100%;
   height: 90px;
   max-height: 100px;
@@ -172,35 +199,41 @@ body{
   justify-content: space-between;
   align-items: center;
 }
-.header_linkBtns{
+
+.header_linkBtns {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 80%;
-  padding: 0 5em ;
+  padding: 0 5em;
 }
-.header__categories{
+
+.header__categories {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
 }
-.categories-lists{
+
+.categories-lists {
   display: flex;
   justify-content: flex-end;
   align-items: center;
   width: 100%;
 }
-.list{
+
+.list {
   margin-right: 80px;
 }
-.list .list-link{
+
+.list .list-link {
   font-size: 16px;
   line-height: 22px;
   font-weight: normal;
   font-family: "Satoshi", sans-serif;
 }
-.header__createAcc .create{
+
+.header__createAcc .create {
   width: 180px;
   height: 50px;
   font-family: 'Satoshi', sans-serif;
@@ -216,7 +249,7 @@ body{
   outline: none;
 }
 
-.anabel{
+.anabel {
   position: absolute;
   left: 50%;
   top: 160px;
@@ -225,7 +258,7 @@ body{
   z-index: 10;
 }
 
-.anabel_name{
+.anabel_name {
   width: 100%;
   height: 100%;
   position: relative;
@@ -235,7 +268,8 @@ body{
   font-weight: 500;
   color: #FFFFFF;
 }
-.ellipse{
+
+.ellipse {
   position: absolute;
   width: 51px;
   height: 18px;
@@ -256,13 +290,14 @@ body{
   height: 170px;
   transform: rotate(16.16deg);
 }
-.hat-image{
+
+.hat-image {
   width: 100%;
   height: 100%;
   object-fit: contain;
 }
 
-.anabel_picture{
+.anabel_picture {
   position: absolute;
   width: 80%;
   bottom: 0%;
@@ -271,18 +306,21 @@ body{
   height: 60%;
   z-index: 1000;
 }
-.anabel_design{
+
+.anabel_design {
   position: relative;
   width: 100%;
   height: 100%;
 }
-.picture{
+
+.picture {
   position: relative;
   width: 100%;
   height: 100%;
   margin: 0 auto;
   z-index: 20;
 }
+
 .picture-anabel {
   position: absolute;
   bottom: 0;
@@ -292,7 +330,8 @@ body{
   object-fit: contain;
   z-index: 100000;
 }
-.ellipse2{
+
+.ellipse2 {
   position: absolute;
   top: 50px;
   left: 10%;
@@ -302,6 +341,7 @@ body{
   filter: blur(150.047px);
   z-index: 20;
 }
+
 .ellipse4 {
   position: absolute;
   top: 60%;
@@ -313,6 +353,7 @@ body{
   filter: blur(150.047px);
   z-index: 20;
 }
+
 .ellipse5 {
   position: absolute;
   top: 60%;
@@ -325,7 +366,7 @@ body{
   z-index: 20;
 }
 
-.ellipse3{
+.ellipse3 {
   background: url(./images/Ellipse\ 1.png);
   background-repeat: no-repeat;
   position: absolute;
@@ -337,7 +378,7 @@ body{
   z-index: 1;
 }
 
-.about-anabel{
+.about-anabel {
   position: absolute;
   display: flex;
   justify-content: space-between;
@@ -356,19 +397,22 @@ body{
   color: #FFFFFF;
   z-index: 1000;
 }
-.anabel__details{
+
+.anabel__details {
   width: 100%;
   height: 70%;
   height: 110px;
 }
-.anabel__details p{
+
+.anabel__details p {
   font-family: "Satoshi", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
 }
-.watch-trailer{
+
+.watch-trailer {
   /* background-color: red; */
   position: relative;
   width: 100%;
@@ -378,7 +422,8 @@ body{
   align-items: center;
   padding: 0 10px;
 }
-.brush{
+
+.brush {
   width: 50px;
   bottom: -20px;
   right: 65%;
@@ -387,12 +432,14 @@ body{
   opacity: 0;
   transition: opacity all .45s;
 }
-.brush img{
+
+.brush img {
   width: 100%;
   height: 100%;
   object-fit: contain;
 }
-.play-button{
+
+.play-button {
   width: 35px;
   height: 35px;
   display: flex;
@@ -405,11 +452,13 @@ body{
   background: none;
   cursor: pointer;
 }
-.play-button img{
+
+.play-button img {
   width: 40%;
   height: 40%;
 }
-.watch-trailer span{
+
+.watch-trailer span {
   font-family: "Satoshi", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -417,7 +466,7 @@ body{
 }
 
 
-.anabel_magic-eye{
+.anabel_magic-eye {
   position: absolute;
   bottom: 5px;
   right: 50px;
@@ -425,11 +474,13 @@ body{
   height: 100px;
   z-index: 10000;
 }
-.magic-eye{
+
+.magic-eye {
   width: 100%;
   height: 100%;
 }
-.magic-eye img{
+
+.magic-eye img {
   cursor: pointer;
   width: 100%;
   height: 100%;
