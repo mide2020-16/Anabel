@@ -130,7 +130,7 @@
   font-family: "Satoshi", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-style: 24px;
+  font-size: 24px;
   line-height: 25px;
 }
 
@@ -486,4 +486,182 @@ body {
   height: 100%;
   object-fit: contain;
 
+}
+
+@media screen and (min-width: 1130px) {
+  .hat {
+      top: 90px;
+      left: 770px;
+    }
+  .ellipse{
+    left: 820px;
+    top: 190px;
+  }  
+}
+
+@media screen and (max-width: 800px) {
+  .header_logo{
+    width: 160px;
+    /* background-color: red; */
+  }
+  .disney-logo{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .list{
+    margin-right: 30px;
+  }
+  .list:last-child{
+    /* padding: 2px; */
+    width: auto;
+  }
+    .header__createAcc .create {
+      width: 150px;
+      height: 40px;
+      font-family: 'Satoshi', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 22px;
+      border-radius: 73px;
+      background: linear-gradient(109.48deg, #4523B0 36.94%, #6E8EFF 141.52%);
+      color: #FFFFFF;
+      cursor: pointer;
+      border: none;
+      outline: none;
+    }
+    .hat {
+      top: 90px;
+      left: 600px;
+    }
+
+    .ellipse {
+      left: 650px;
+      top: 190px;
+    }
+    .anabel_picture{
+      bottom: 20%;
+    }
+    .picture{
+      width: 80%;
+    }
+    .about-anabel{
+      bottom: 5%;
+      right: 50%;
+      transform: translateX(50%);
+      width: 50%;
+    }
+    .ellipse3{
+      top: 40%;
+      width: 1000%;
+      left: -150px;
+      padding: 0;
+    }
+    .nextpage{
+      bottom: 200px;
+    }
+    .thanks{
+      bottom: 150px;
+    }
+    .crownandperson{
+      margin-right: 50px;
+    }
+    .header h2{
+      line-height: 50px;
+    }
+    .para p{
+      line-height: 30px;
+      font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 361px) {
+  .header__categories{
+    display: none;
+  }
+  .header_logo {
+    width: 250px;
+    /* background-color: red; */
+  }
+  .anabel_name{
+    font-size: 100px;
+  }
+.header_linkBtns{
+  padding:0 1em;
+}
+  .disney-logo {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .header__createAcc .create {
+    width: 150px;
+    height: 40px;
+  }
+
+  .hat {
+    top: 135px;
+    left: 270px;
+  }
+  .hat-image{
+    width: 50%;
+    height: 50%;
+  }
+
+  .ellipse {
+    left: 290px;
+    top: 170px;
+  }
+
+  .about-anabel {
+    bottom: -20px;
+    right: 50%;
+    transform: translateX(50%);
+    width: 80%;
+  }
+  .anabel__details p{
+    line-height: 1.25;
+  }
+  .anabel_magic-eye{
+    right: 15px;
+    width: 70px;
+    height: 70px;
+    bottom: 3px;
+  }
+
+  .ellipse3 {
+    top: 30%;
+    width: 2000%;
+    left: -300px;
+    padding: 0;
+  }
+
+  .nextpage {
+    bottom: 70px;
+  }
+  .connect{
+    margin-top: -30px;
+    margin-left: -80px;
+  }
+  .twitter{
+    padding: 3px 10px;
+  }
+
+  .thanks {
+    bottom: 30px;
+  }
+
+  .crownandperson {
+    margin-right: 40px;
+  }
+
+  .header h2 {
+    display: none;
+  }
+
+  .para p {
+    line-height: 25px;
+    font-size: 18px;
+  }
 }
